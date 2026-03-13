@@ -1,0 +1,34 @@
+name: smart_class_checkin
+description: Smart Class Check-in & Learning Reflection MVP
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+
+  # Device features
+  geolocator: any
+  mobile_scanner: any
+
+  # QR display (instructor test screen)
+  qr_flutter: any
+
+  # Local
+  shared_preferences: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
